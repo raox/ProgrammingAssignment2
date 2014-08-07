@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
         # return value of makeCacheMatrix as a list of functions which can be 
         # accessed using $
         list(set=set, getmatrix=getmatrix, setinverse=setinverse, getinverse=getinverse)
-
+}
 
 ## cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix. 
 ## and save it in the cache.
